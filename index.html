@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maalasa Yarramsetti | Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
     * {
       margin: 0;
@@ -30,6 +30,16 @@
     header p {
       font-size: 1.2rem;
     }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin: 15px auto;
+      display: block;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
     section {
       max-width: 1000px;
       margin: 20px auto;
@@ -49,21 +59,20 @@
     .contact a {
       color: #2980b9;
       text-decoration: none;
+      display: inline-block;
+      margin-bottom: 8px;
     }
-    .projects li strong {
-      color: #2980b9;
+    .contact a i {
+      margin-right: 8px;
     }
-    .profile-pic {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid white;
-  margin: 15px auto;
-  display: block;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -118,11 +127,11 @@
   <section>
     <h2>Certifications & Achievements</h2>
     <ul>
-      <li><strong>GSSoC Contributor</strong> – GirlScript Summer of Code 2025</li>
-      <li><strong>Postman API Student Expert</strong></li>
-       <li><strong>Google Student Ambassador</strong></li>
+      <li>Postman API Student Expert</li>
+      <li>Python Programming – SWU</li>
       <li>1st Place – Hackathon (Community Complaint Portal)</li>
-       <li>Python Programming – SWU</li>
+      <li><strong>Google Student Ambassador</strong></li>
+      <li><strong>GSSoC Contributor</strong> – GirlScript Summer of Code 2025</li>
     </ul>
   </section>
 
@@ -143,10 +152,12 @@
 
   <section class="contact">
     <h2>Contact</h2>
-    <p>📧 Email: <a href="mailto:maalasayarramsetti@gmail.com">maalasayarramsetti@gmail.com</a></p>
-    <p>📞 Phone: <a href="tel:+919703060818">9703060818</a></p>
-    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/maalasa-yarramsetti-283697325" target="_blank">linkedin.com/in/maalasa-yarramsetti</a></p>
+    <p><a href="mailto:maalasayarramsetti@gmail.com"><i class="fas fa-envelope"></i> maalasayarramsetti@gmail.com</a></p>
+    <p><a href="tel:+919703060818"><i class="fas fa-phone"></i> +91 9703060818</a></p>
+    <p><a href="https://www.linkedin.com/in/maalasa-yarramsetti-283697325" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/maalasa-yarramsetti</a></p>
+    <p><a href="https://github.com/maalasa-yarramsetti" target="_blank"><i class="fab fa-github"></i> github.com/maalasa-yarramsetti</a></p>
   </section>
 
 </body>
 </html>
+

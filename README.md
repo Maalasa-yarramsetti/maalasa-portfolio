@@ -1,2 +1,2 @@
-# maalasa-portfolio
+# Maalasa-portfolio
 Personal Portfolio Website
